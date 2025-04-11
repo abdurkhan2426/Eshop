@@ -1,9 +1,9 @@
 import React from 'react'
-import SearchIcon from './SearchIcon'
-import CartIcon from './CartIcon'
-import BarsIcon from './BarsIcon'
-import Logo from './Logo'
-import UserIcon from './UserIcon'
+import SearchIcon from './icons/SearchIcon'
+import CartIcon from './icons/CartIcon'
+import BarsIcon from './icons/BarsIcon'
+import Logo from './icons/Logo'
+import UserIcon from './icons/UserIcon'
 
 
 const NavBar = ({color}) => {

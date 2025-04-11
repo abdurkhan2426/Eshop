@@ -2,8 +2,8 @@ import './App.css';
 import NavBar from './components/navbar';
 import { createBrowserRouter, RouterProvider, useNavigation } from 'react-router-dom'
 
-import Home1 from './components/Home1';
-import ProductDetails from './components/ProductDetails';
+import Home from './pages/Home';
+import ProductDetails from './pages/ProductDetails';
 import GetProductDetails from './components/GetProductDetails';
 import Cart from './components/Cart';
 import GetProducts from './components/GetProducts'
@@ -26,7 +26,7 @@ function App() {
         },
         {
           path: "/",
-          element: <Home1 />,
+          element: <Home />,
           loader: GetProducts,
 
         },

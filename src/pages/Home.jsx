@@ -2,18 +2,18 @@ import React from 'react'
 import { useEffect, useState } from 'react'
 import { useLoaderData } from 'react-router-dom'
 import axios from 'axios'
-import NavBar from './navbar'
-import Sales from './Sales'
-import ArrowRightIcon from './ArrowRightIcon'
+import NavBar from '../components/navbar'
+import Sales from '../components/icons/Sales'
+import ArrowRightIcon from '../components/icons/ArrowRightIcon'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { NavLink, useNavigation } from 'react-router-dom'
-import Loading from './Loading'
+import Loading from '../components/Loading'
 
 
 
-const Home1 = () => {
+const Home = () => {
     const data = useLoaderData();
 
     const navigation = useNavigation()
@@ -180,4 +180,4 @@ const Home1 = () => {
   )
 }
 
-export default Home1
+export default Home

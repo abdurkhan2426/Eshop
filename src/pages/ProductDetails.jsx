@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { useLoaderData, useNavigation, useParams } from 'react-router-dom'
-import NavBar from './navbar';
+import NavBar from '../components/navbar';
 import Slider from "react-slick";
 import { useDispatch } from "react-redux";
 import { addToCart } from '../Slices/cartSlice';
